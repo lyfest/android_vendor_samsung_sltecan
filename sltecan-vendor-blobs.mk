@@ -200,10 +200,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/samsung/sltecan/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/samsung/sltecan/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/sltecan/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/sltecan/proprietary/bin/insthk:system/bin/insthk \
     vendor/samsung/sltecan/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/sltecan/proprietary/bin/irsc_util:system/bin/irsc_util \
