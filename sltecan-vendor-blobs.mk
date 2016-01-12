@@ -151,15 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/samsung/sltecan/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/samsung/sltecan/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/samsung/sltecan/proprietary/bin/cnd:system/bin/cnd \
-    vendor/samsung/sltecan/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/samsung/sltecan/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/samsung/sltecan/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/samsung/sltecan/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/samsung/sltecan/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/sltecan/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
@@ -202,22 +193,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/samsung/sltecan/proprietary/bin/insthk:system/bin/insthk \
-    vendor/samsung/sltecan/proprietary/etc/srm.bin:system/etc/srm.bin \
-    vendor/samsung/sltecan/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/sltecan/proprietary/etc/sec_config:system/etc/sec_config \
+    vendor/samsung/sltecan/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/sltecan/proprietary/bin/radish:system/bin/radish \
-    vendor/samsung/sltecan/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    vendor/samsung/sltecan/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -228,6 +210,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/samsung/sltecan/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/sltecan/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -247,10 +230,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/samsung/sltecan/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/sltecan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/samsung/sltecan/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/samsung/sltecan/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/sltecan/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/sltecan/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/samsung/sltecan/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/sltecan/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/sltecan/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
@@ -265,6 +246,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltecan/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
     vendor/samsung/sltecan/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
     vendor/samsung/sltecan/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/sltecan/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/sltecan/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/sltecan/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/sltecan/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
