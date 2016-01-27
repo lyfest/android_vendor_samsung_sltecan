@@ -20,4 +20,4 @@ PRODUCT_PACKAGES += \
     libmm-abl \
     libtime_genoff
 
-$(call inherit-product, vendor/samsung/sltecan/sltecan-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/sltechn/sltechn-vendor-blobs.mk)
